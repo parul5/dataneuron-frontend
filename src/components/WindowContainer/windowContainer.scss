@@ -1,0 +1,12 @@
+.outer-container {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+}
+
+.inner-container {
+    display: flex;
+    max-width: 100vw;
+    padding: 0px;
+    margin: 0px;
+}

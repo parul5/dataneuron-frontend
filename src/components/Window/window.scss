@@ -1,0 +1,34 @@
+.window {
+    border: 1px solid black;
+    height: 100%;
+    width: 100%;
+    // padding: 10px;
+    min-width: fit-content;
+    overflow: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none; 
+}
+
+.window::-webkit-scrollbar {
+    display: none;
+  }
+  
+.window p {
+    margin: 0;
+    padding: 30px;
+}
+
+
+.window1 {
+    background: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+    width: 100%;
+}
+
+.window2 {
+    background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+    width: 100%;
+}
+
+.window3 {
+    background: radial-gradient(circle at 12.3% 19.3%, rgb(85, 88, 218) 0%, rgb(95, 209, 249) 100.2%);
+}
